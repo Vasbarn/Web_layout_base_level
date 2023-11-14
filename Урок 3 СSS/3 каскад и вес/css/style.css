@@ -1,0 +1,21 @@
+
+div h1 {
+    background-color: aqua;
+}
+
+div h1 {
+    background-color: aqua;
+}
+
+
+#t1 h1 {
+    background-color: chartreuse;
+}
+
+.t1 h1 {
+    background-color: aqua;
+}
+
+.t2 {
+    color: sienna !important;
+}
