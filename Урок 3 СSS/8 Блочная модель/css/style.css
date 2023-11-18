@@ -1,0 +1,9 @@
+.example {
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 5px;
+    width: 400px;
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
+}

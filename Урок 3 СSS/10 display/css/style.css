@@ -1,0 +1,13 @@
+.parent {
+    width: 1000px;
+    background-color: aqua;
+    border: 1px solid black;
+    font-size:  0;
+}
+.child:type {
+    font-size: 14px;
+    display: inline-block;
+    width: 200px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
