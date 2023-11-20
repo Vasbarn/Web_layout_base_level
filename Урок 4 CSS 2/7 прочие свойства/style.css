@@ -1,0 +1,42 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+.outline {
+    margin: 50px;
+    outline: 2px solid red;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.visib {
+    visibility: hidden;
+}
+
+.list {
+    list-style: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
