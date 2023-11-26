@@ -1,0 +1,39 @@
+
+@font-face {
+	font-family: 'ObitaemOstrov';
+	src: local('ObitaemOstrov'),
+
+		url('../fonts/ObitaemOstrov.woff2') format('woff2'),
+        url('../fonts/ObitaemOstrov.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub_text {
+    font-family: 'ObitaemOstrov';
+    font-size: 26px;
+}
