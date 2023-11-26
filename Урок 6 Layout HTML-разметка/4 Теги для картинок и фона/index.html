@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Для верхней части</h1>
+    </header>
+    <main>
+        <div class="for_img">
+            <!-- Этот блок с изображением, которое является частью контента, и без него он будет не полный -->
+            <figure>
+                <img src="https://watv.org/wp-content/uploads/2021/01/honey-bee-1.jpg" alt="Изображения с двумя пчелами">
+                <figcaption>Сколько пчел на изображении?</figcaption>
+            </figure>
+        </div>
+        <div class="for_back">
+            <!-- Этот блок с асбтрактной картинокй, с целью создать декарацию -->
+        </div>
+        <div class="for_img_without_content">
+            <!-- Этот блок с изображением, которое является объектом, но не сесет в себе контентную часть (чисто под анимацию) далее должен был быть
+            тег img с svg и свойством aria-label="presentation-->
+            <img
+                aria-label="presentation"
+                src="https://img.freepik.com/premium-vector/bee-icon-simple-illustration-of-bee-vector-icon-for-web_96318-35754.jpg"
+                alt="Пчела">
+        </div>
+    </main>
+    <footer>
+        <p>Для нижнего блока</p>
+    </footer>
+</body>
+</html>
