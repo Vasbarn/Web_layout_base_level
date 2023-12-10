@@ -14,7 +14,7 @@
         <div class="container">
             <div class="header-under-container">
                 <a class="header-logo-link" href="#">
-                    <img class="header-logo-img" src="./img/logo.jpg" alt="Logo"> 
+                    <img class="header-logo-img" src="./img/logo.jpg" alt="Logo">
                 </a>
                 <address class="header-number">
                     <a class="header-number-link" href="tel:+74953225448">
@@ -168,6 +168,7 @@
                 </h2>
                 <ul class="services-list">
                     <li class="services-list-elem">
+                        <div class="services-item-icon icon1"></div>
                         <a class="services-link more-about" href="#">
                             <p class="services-text">
                                 Эксклюзивное обслуживание
@@ -183,6 +184,7 @@
                         </p>
                     </li>
                     <li class="services-list-elem">
+                        <div class="services-item-icon icon2"></div>
                         <a class="services-link more-about" href="#">
                             <p class="services-text">
                                 Аренда банкетных залов
@@ -198,6 +200,7 @@
                         </p>
                     </li>
                     <li class="services-list-elem">
+                        <div class="services-item-icon icon3"></div>
                         <a class="services-link more-about" href="#">
                             <p class="services-text">
                                 Сауны, бассейны, бани, фитнес-залы
@@ -214,6 +217,7 @@
                         </p>
                     </li>
                     <li class="services-list-elem">
+                        <div class="services-item-icon icon4"></div>
                         <a class="services-link more-about" href="#">
                             <p class="services-text">
                                 Охраняемые автомобильные стоянки
@@ -572,27 +576,27 @@
                     Хочу тур
                 </h2>
                 <form class="sell-form">
-                        <div class="sell-from">
-                            <small class="sell-from-caption">Город вылета</small>
-                            <input class="sell-from-value" type="text" value="Санкт-Питербург">
+                        <div class="sell-form-elem sell-from">
+                            <small class="sell-cap sell-from-caption">Город вылета</small>
+                            <input class="sell-val sell-from-value" type="text" value="Санкт-Питербург">
                         </div>
-                        <div class="sell-to">
-                            <small class="sell-to-caption">Город прилета</small>
-                            <input class="sell-to-value" type="text" value="Австралия">
+                        <div class="sell-form-elem sell-to">
+                            <small class="sell-cap sell-to-caption">Город прилета</small>
+                            <input class="sell-val sell-to-value" type="text" value="Австралия">
                         </div>
-                        <div class="sell-date-start">
-                            <small class="sell-date-caption">Дата прилете</small>
-                            <input class="sell-date-value" type="date">
+                        <div class="sell-form-elem sell-date-start">
+                            <small class="sell-cap sell-date-caption">Дата прилете</small>
+                            <input class="sell-val sell-date-value" type="date">
                         </div>
-                        <div class="sell-duration">
-                            <small class="sell-duration-caption">Ночей</small>
-                            <input class="sell-duration-value" type="number" value="8">
+                        <div class="sell-form-elem sell-duration">
+                            <small class="sell-cap sell-duration-caption">Ночей</small>
+                            <input class="sell-val sell-duration-value" type="number" value="8">
                         </div>
-                        <div class="sell-count">
-                            <small class="sell-count-caption">Туристы</small>
-                            <input class="sell-count-value" type="number" value="2">
+                        <div class="sell-form-elem sell-count">
+                            <small class="sell-cap sell-count-caption">Туристы</small>
+                            <input class="sell-val sell-count-value" type="number" value="2">
                         </div>
-                        <button class="btn btn-sell">
+                        <button class="sell-form-elem btn btn-sell">
                             Найти
                         </button>
                 </form>
@@ -605,53 +609,61 @@
                     Контакты
                 </h2>
                 <address class="contacts-address">
-                    <div class="contacts-location">
-                        <strong class="contacts-location-caption">
-                            Адрес
-                        </strong>
-                        <span class="contacts-location-value">
-                            Москва, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
-                        </span>
-                    </div>
-                    <div class="contacts-phones">
-                        <strong class="contacts-phones-caption">
-                            Телефоны
-                        </strong>
-                        <a class="contacts-phones-value" href="tel:+74995356434">
-                            +7&nbsp;499&nbsp;535-64-34
-                        </a>
-                        <a class="contacts-phones-value" href="tel:+74950050544">
-                            +7&nbsp;495&nbsp;005-05-44
-                        </a>
-                    </div>
-                    <div class="contacts-email">
-                        <strong class="contacts-email-caption">
-                            Email
-                        </strong>
-                        <div class="contacts-email-value">
-                            <a class="contacts-email-address" href="mailto:lg.oona@mail.ru">
-                                lg.oona@mail.ru
-                            </a>
-                            <span class="contacts-email-text">
-                                по&nbsp;вопросам бронирования
+                    <div class="contacts-address-into">
+                        <div class="cont-elem contacts-location">
+                            <strong class="cont-cap contacts-location-caption">
+                                Адрес
+                            </strong>
+                            <span class="cont-val contacts-location-value">
+                                Москва, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
                             </span>
                         </div>
-                        <div class="contacts-email-value">
-                            <a class="contacts-email-address" href="mailto:hotels.ln@mail.ru">
-                                hotels.ln@mail.ru
+                        <div class="cont-elem contacts-phones">
+                            <strong class="cont-cap contacts-phones-caption">
+                                Телефоны
+                            </strong>
+                            <a class="cont-val contacts-phones-value contacts-value-href" href="tel:+74995356434">
+                                +7&nbsp;499&nbsp;535-64-34
                             </a>
-                            <span class="contacts-email-text">
-                                по&nbsp;вопросам сотрудничества
+                            <a class="cont-val contacts-phones-value contacts-value-href" href="tel:+74950050544">
+                                +7&nbsp;495&nbsp;005-05-44
+                            </a>
+                        </div>
+                        <div class="cont-elem contacts-email">
+                            <strong class="cont-cap contacts-email-caption">
+                                Email
+                            </strong>
+                            <div class="contacts-email-value">
+                                <a class="cont-val contacts-email-address contacts-value-href" href="mailto:lg.oona@mail.ru">
+                                    lg.oona@mail.ru
+                                </a>
+                                <span class="cont-val contacts-email-text">
+                                    по&nbsp;вопросам бронирования
+                                </span>
+                            </div>
+                            <div class="contacts-email-value">
+                                <a class="cont-val contacts-email-address contacts-value-href" href="mailto:hotels.ln@mail.ru">
+                                    hotels.ln@mail.ru
+                                </a>
+                                <span class="cont-val contacts-email-text">
+                                    по&nbsp;вопросам сотрудничества
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cont-elem contacts-schedule">
+                            <strong class="cont-cap contacts-schedule-caption">
+                                График
+                            </strong>
+                            <span class="cont-val contacts-schedule-value">
+                                Понедельник-пятница, с&nbsp;10:00 до&nbsp;19:00
                             </span>
                         </div>
                     </div>
-                    <div class="contacts-schedule">
-                        <strong class="contacts-schedule-caption">
-                            График
-                        </strong>
-                        <span class="contacts-schedule-value">
-                            Понедельник-пятница, с&nbsp;10:00 до&nbsp;19:00
-                        </span>
+                    <button class="btn btn-cont">
+                        Построить маршрут
+                    </button>
+                    <div class="hall">
+
                     </div>
                 </address>
             </div>
@@ -660,30 +672,34 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <small class="footer-copy">
-                &copy;&nbsp;2012&ndash;2020 Управляющая компания Объединённой сети &laquo;Лагуна Хотелс&raquo;
-            </small>
-            <small class="footer-info">
-                Представленная на&nbsp;сайте информация носит справочный характер и&nbsp;не&nbsp;является публичной офертой
-            </small>
-            <a class="terms-of-use">
-                Пользовательское соглашение
-            </a>
-            <address class="footer-address">
-                11710, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
-            </address>
-            <a class="footer-phones-value" href="tel:+74995356434">
-                +7&nbsp;499&nbsp;535-64-34
-            </a>
-            <a class="footer-phones-value" href="tel:+74950050544">
-                +7&nbsp;495&nbsp;005-05-44
-            </a>
-            <a class="footer-email-address" href="mailto:lg.oona@mail.ru">
-                lg.oona@mail.ru
-            </a>
-            <a class="footer-email-address" href="mailto:hotels.ln@mail.ru">
-                hotels.ln@mail.ru
-            </a>
+            <div class="footer-1">
+                <small class="footer-copy">
+                    &copy;&nbsp;2012&ndash;2020 Управляющая компания Объединённой сети &laquo;Лагуна Хотелс&raquo;
+                </small>
+                <small class="footer-info">
+                    Представленная на&nbsp;сайте информация носит справочный характер и&nbsp;не&nbsp;является публичной офертой
+                </small>
+                <a class="terms-of-use contacts-value-href">
+                    Пользовательское соглашение
+                </a>
+            </div>
+            <div class="footer-2">
+                <address class="footer-address">
+                    11710, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
+                </address>
+                <a class="footer-phones-value contacts-value-href" href="tel:+74995356434">
+                    +7&nbsp;499&nbsp;535-64-34
+                </a>
+                <a class="footer-phones-value contacts-value-href" href="tel:+74950050544">
+                    +7&nbsp;495&nbsp;005-05-44
+                </a>
+                <a class="footer-email-address contacts-value-href" href="mailto:lg.oona@mail.ru">
+                    lg.oona@mail.ru
+                </a>
+                <a class="footer-email-address contacts-value-href" href="mailto:hotels.ln@mail.ru">
+                    hotels.ln@mail.ru
+                </a>
+            </div>
             <ul class="social-list">
                 <li class="social-elem">
                     <a class="social-link social-link-hz" href="#">
